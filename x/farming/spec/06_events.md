@@ -73,6 +73,7 @@ The farming module emits the following events:
 | message | module        | farming         |
 | message | action        | harvest         |
 | message | sender        | {senderAddress} |
+
 ### MsgAdvanceEpoch
 
 This message is for testing purpose. It is only available when you build `farmingd` binary by `make install-testing` command.
